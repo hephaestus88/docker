@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T18:41:19.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Y65lb_iTwau-UL0nbae5" version="21.3.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-10T18:42:57.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PKT7Ho3HI1ISinDwu1QF" version="21.3.8" type="github" pages="3">
   <diagram name="Container" id="v48tI_cbrsgO7j5zE3Fv">
     <mxGraphModel dx="1925" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U_6TIxGohXq_X8PzQBBA" name="Dockerfile image build">
-    <mxGraphModel dx="1518" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3225" dy="1353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -339,8 +339,11 @@
         <mxCell id="A3zTRLg9yi2j0d-LxrQM-24" value="Chrome" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="850" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-WBLIwp8frwGNxvhE2Uy-41" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-WBLIwp8frwGNxvhE2Uy-28" target="-WBLIwp8frwGNxvhE2Uy-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-WBLIwp8frwGNxvhE2Uy-28" value="" style="rounded=0;whiteSpace=wrap;html=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];strokeColor=#309FFF;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="530" width="460" height="435" as="geometry" />
+          <mxGeometry x="670" y="530" width="460" height="510" as="geometry" />
         </mxCell>
         <mxCell id="-WBLIwp8frwGNxvhE2Uy-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A1FFF9;" vertex="1" parent="1">
           <mxGeometry x="830" y="565" width="190" height="60" as="geometry" />
@@ -363,26 +366,26 @@
             <mxPoint x="910" y="802" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-WBLIwp8frwGNxvhE2Uy-34" value="Hard Drive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
-          <mxGeometry x="820" y="815" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="-WBLIwp8frwGNxvhE2Uy-35" value="Network" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
-          <mxGeometry x="950" y="815" width="120" height="60" as="geometry" />
+          <mxGeometry x="870" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-WBLIwp8frwGNxvhE2Uy-36" value="RAM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FFFF;" vertex="1" parent="1">
-          <mxGeometry x="820" y="885" width="120" height="70" as="geometry" />
+          <mxGeometry x="740" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-WBLIwp8frwGNxvhE2Uy-37" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FFFF;" vertex="1" parent="1">
-          <mxGeometry x="950" y="885" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="-WBLIwp8frwGNxvhE2Uy-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="855" width="130" height="60" as="geometry" />
+          <mxGeometry x="1000" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-WBLIwp8frwGNxvhE2Uy-39" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Container&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="865" y="465" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-WBLIwp8frwGNxvhE2Uy-40" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Running Process&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="1050" y="580" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-WBLIwp8frwGNxvhE2Uy-43" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="970" y="890" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-WBLIwp8frwGNxvhE2Uy-44" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Hard drive segment &lt;br&gt;for this process&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="920" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
