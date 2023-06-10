@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T17:56:05.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lR2H3ouRwpratHsF5gpc" version="21.3.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-10T18:05:25.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tF7Jy8qNzikajZjf6BOg" version="21.3.8" type="github" pages="2">
   <diagram name="Container" id="v48tI_cbrsgO7j5zE3Fv">
     <mxGraphModel dx="1925" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -185,8 +185,58 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3uLUOUoR9_b_FdKDZr3V-1" value="ocker&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Dockerfile&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#91FFB2;" vertex="1" parent="1">
           <mxGeometry x="50" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-2" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3uLUOUoR9_b_FdKDZr3V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="250" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-6" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="3uLUOUoR9_b_FdKDZr3V-3" target="3uLUOUoR9_b_FdKDZr3V-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Docker Client&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-8" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="3uLUOUoR9_b_FdKDZr3V-4" target="3uLUOUoR9_b_FdKDZr3V-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Docker Server&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Usable Image&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#78C9FF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-10" value="Configureation to define how our container should behave" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Specify a base image&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Run some commands to install additional programs&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Specify a command to run on container startup&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-15" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;strokeColor=#000000;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="300" as="sourcePoint" />
+            <mxPoint x="280" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-16" value="Flow&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3uLUOUoR9_b_FdKDZr3V-15">
+          <mxGeometry x="-0.7091" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uLUOUoR9_b_FdKDZr3V-17" value="Createing a Dockerfile" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="470" y="240" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
