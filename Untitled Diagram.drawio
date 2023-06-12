@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T00:54:39.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_QbnKbzKILqn142x7HaU" version="21.3.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-06-12T01:05:18.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="SOv99iSi2PlorHkOGiCV" version="21.3.8" type="github" pages="6">
   <diagram name="Container" id="v48tI_cbrsgO7j5zE3Fv">
     <mxGraphModel dx="1925" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -874,6 +874,33 @@
         </mxCell>
         <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;docker-compose down&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
           <mxGeometry x="225" y="2240" width="435" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Never attempt to restart this . container if it stops or crashes&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2440" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Always&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;If this container stops *for any reason* always attempt to restart it&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2500" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;On-failure&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Only restart of the container stops with an error code&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2560" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Unless-stopped&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-19" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Always restart unless the developers forcibly stop it&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2620" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwE1RZ0ZJgZCtpc0Xwez-20" value="Docker Restart Policies" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2370" width="400" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
