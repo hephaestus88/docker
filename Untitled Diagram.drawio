@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T03:01:06.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JJf7Ck4LK7lMIORUraXL" version="21.3.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-06-13T03:06:14.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8M0ymb7i9L9WsI1icdUv" version="21.3.8" type="github" pages="7">
   <diagram name="Container" id="v48tI_cbrsgO7j5zE3Fv">
     <mxGraphModel dx="2140" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -704,7 +704,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iN9l7Orjd0xAqKv6JPne-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;docker&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="227.5" y="690" width="185" height="60" as="geometry" />
+          <mxGeometry x="240" y="690" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iN9l7Orjd0xAqKv6JPne-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;run&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="690" width="185" height="60" as="geometry" />
@@ -954,6 +954,33 @@
             <mxPoint x="585" y="299.5" as="sourcePoint" />
             <mxPoint x="280" y="299.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8OhuGdOnibYpRVtJ4yty-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;docker run -p 3000:3000&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="555" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8OhuGdOnibYpRVtJ4yty-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;-v /app/node_modules&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="555" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8OhuGdOnibYpRVtJ4yty-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="770" y="435" width="20" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8OhuGdOnibYpRVtJ4yty-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Map the pwd into the &#39;/app&#39;folder&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="475" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8OhuGdOnibYpRVtJ4yty-6" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;-v $(pwd):/app&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="555" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8OhuGdOnibYpRVtJ4yty-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-180;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="625" width="325" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8OhuGdOnibYpRVtJ4yty-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Put a bookmark on the node_modules folder&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="645" width="35" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="8OhuGdOnibYpRVtJ4yty-10" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&amp;lt;image_id&amp;gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="555" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8OhuGdOnibYpRVtJ4yty-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8OhuGdOnibYpRVtJ4yty-5" target="8OhuGdOnibYpRVtJ4yty-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
