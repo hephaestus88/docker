@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T21:45:52.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="W5IXquGTi2gnYndouNpT" version="21.3.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-06-14T22:09:19.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wBCHxckXgX2LSChJOWHx" version="21.3.8" type="github" pages="8">
   <diagram name="Container" id="v48tI_cbrsgO7j5zE3Fv">
     <mxGraphModel dx="2140" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1090,7 +1090,7 @@
         <mxCell id="W0gP06w2no13RwSuW0oo-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;index.html&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="2000" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W0gP06w2no13RwSuW0oo-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W0gP06w2no13RwSuW0oo-19" target="W0gP06w2no13RwSuW0oo-17">
+        <mxCell id="W0gP06w2no13RwSuW0oo-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W0gP06w2no13RwSuW0oo-19" target="W0gP06w2no13RwSuW0oo-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W0gP06w2no13RwSuW0oo-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;main.js&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1123,6 +1123,79 @@
             <mxPoint x="290" y="1960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W0gP06w2no13RwSuW0oo-29" target="W0gP06w2no13RwSuW0oo-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Use node: alpine&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="2290" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W0gP06w2no13RwSuW0oo-30" target="W0gP06w2no13RwSuW0oo-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;copy the package.json file&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="2350" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W0gP06w2no13RwSuW0oo-31" target="W0gP06w2no13RwSuW0oo-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-31" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Install dependencies&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="2410" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-32" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Run &#39;npm run build&#39;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="2470" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="2280" as="sourcePoint" />
+            <mxPoint x="-110" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-38" value="build phase" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="2250" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W0gP06w2no13RwSuW0oo-41" target="W0gP06w2no13RwSuW0oo-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-41" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Use nginx&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2290" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W0gP06w2no13RwSuW0oo-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="2370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-43" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Copy over the result of &#39;npm run build&#39;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2350" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-45" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Start nginx&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2410" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="2290" as="sourcePoint" />
+            <mxPoint x="270" y="2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-48" value="Run Phase" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="365" y="2250" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="W0gP06w2no13RwSuW0oo-50" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="W0gP06w2no13RwSuW0oo-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="2370" as="sourcePoint" />
+            <mxPoint x="290" y="2340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="2490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-CxMLCsXY6em5E3i2ocY" name="CI AND DEPLOYMENT">
+    <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
