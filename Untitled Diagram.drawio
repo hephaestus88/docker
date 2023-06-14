@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T22:12:09.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_ZgjwQpdwIzzfSARbYiT" version="21.3.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-14T22:12:55.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nFuNmNm5f0e-VmB1AYiP" version="21.3.8" type="github" pages="8">
   <diagram name="Container" id="v48tI_cbrsgO7j5zE3Fv">
     <mxGraphModel dx="2140" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1205,6 +1205,9 @@
         <mxCell id="tGzcYlFNnK8_EuF0u_81-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;feature&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="150" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="tGzcYlFNnK8_EuF0u_81-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tGzcYlFNnK8_EuF0u_81-6" target="tGzcYlFNnK8_EuF0u_81-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tGzcYlFNnK8_EuF0u_81-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Master&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="150" width="120" height="40" as="geometry" />
         </mxCell>
@@ -1222,6 +1225,15 @@
         </mxCell>
         <mxCell id="tGzcYlFNnK8_EuF0u_81-11" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tGzcYlFNnK8_EuF0u_81-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tGzcYlFNnK8_EuF0u_81-12" target="tGzcYlFNnK8_EuF0u_81-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tGzcYlFNnK8_EuF0u_81-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Travis CI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8FFDC;" vertex="1" parent="1">
+          <mxGeometry x="425" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tGzcYlFNnK8_EuF0u_81-13" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;AWS hosting&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A8FFDC;" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
