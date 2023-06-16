@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T17:50:38.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="iBwzXU-qzYa1neoV8KTG" version="21.3.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-06-16T17:54:04.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wYgXByeMWLlMHEJZj--m" version="21.3.8" type="github" pages="9">
   <diagram name="Container" id="v48tI_cbrsgO7j5zE3Fv">
     <mxGraphModel dx="2140" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1337,13 +1337,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mL5B44xXt2XT7u1jIbqR-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;The app was simple - no outside dependencies&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mL5B44xXt2XT7u1jIbqR-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;The app was simple - no outside dependencies&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="200" width="530" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mL5B44xXt2XT7u1jIbqR-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Our image was built multiple times&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mL5B44xXt2XT7u1jIbqR-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Our image was built multiple times&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="280" width="530" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mL5B44xXt2XT7u1jIbqR-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;How do we connect to a database from a container?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mL5B44xXt2XT7u1jIbqR-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;How do we connect to a database from a container?&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="360" width="530" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mL5B44xXt2XT7u1jIbqR-4" value="Single Container&amp;nbsp;&lt;br&gt;Deployment issues" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
