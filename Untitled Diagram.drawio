@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T17:36:32.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="t-uBDSOCXUiqVu1Ogz5V" version="21.4.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-06-19T17:44:16.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6U8__Dpj2c7OSN4sb-H9" version="21.4.0" type="github" pages="10">
   <diagram name="Container" id="v48tI_cbrsgO7j5zE3Fv">
     <mxGraphModel dx="2140" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1328,6 +1328,90 @@
             <mxPoint x="640" y="1600" as="sourcePoint" />
             <mxPoint x="690" y="1550" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-2" target="sEr13YqseWk8L53sRA_7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-2" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;push code to github&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="2770" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-4" target="sEr13YqseWk8L53sRA_7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Travis automatically pulls repo&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="2850" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-6" target="sEr13YqseWk8L53sRA_7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Travis builds an image, test code&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="2920" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-7" target="sEr13YqseWk8L53sRA_7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-7" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Travis pushes code to AWS EB&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="3010" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="202.5" y="2770" as="sourcePoint" />
+            <mxPoint x="203" y="3190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-9" value="sinple container setup" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="2740" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;EB builds image, deploys it&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="3120" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-13" target="sEr13YqseWk8L53sRA_7-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-13" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;push code to github&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="2780" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-15" target="sEr13YqseWk8L53sRA_7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-15" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Travis automatically pulls repo&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="2860" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-17" target="sEr13YqseWk8L53sRA_7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-17" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Travis builds test image, test code&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="2940" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-19" target="sEr13YqseWk8L53sRA_7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-19" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Travis builds prod images&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="3020" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="2780" as="sourcePoint" />
+            <mxPoint x="741" y="3330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-21" value="multi container setup" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="810" y="2750" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-22" target="sEr13YqseWk8L53sRA_7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-22" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Travis pushes built prod images to DockerHub&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="3110" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEr13YqseWk8L53sRA_7-23" target="sEr13YqseWk8L53sRA_7-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-23" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Travis pushes project to AWS EB&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="3200" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sEr13YqseWk8L53sRA_7-24" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;EB pulls images from Docker Hub, deploys&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="3280" width="280" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
